@@ -1,0 +1,20 @@
+<main>
+    <section id="form-section">
+        <img src="/assets/svg/logo.svg" alt="">
+        <h2>{{ title }}</h2>
+        <ng-content></ng-content>
+        <div id="btn-wrapper">
+            <button id="btn-primary" (click)="submit()" [disabled]="disablePrimaryBtn">{{ primaryBtnText }}</button>
+            <div id="divider">
+                <div></div>
+                <span>or</span>
+                <div></div>
+            </div>
+            <button id="btn-secondary" (click)="navigate()">{{ secondaryBtnText }}</button>
+        </div>
+    </section>
+    <section id="main-section">
+        <h1>You Should, MoveIt!</h1>
+        <img src="/assets/svg/tela-login.jpg" alt="">
+    </section>
+</main>
