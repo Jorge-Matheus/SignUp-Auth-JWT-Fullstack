@@ -19,4 +19,5 @@
 <h3><strong>REST API: </strong></h3><p>O backend expõe uma API RESTful com os seguintes endpoints:</p>
 <p>/login: POST para autenticação de usuários e acesso à página de login no frontend.</p>
 <p>/register: POST para cadastro de novos usuários e acesso à página de registro no frontend.</p>
+<p>/user: GET Recurso disponível após autenticação via JWT (JSON Web Token)</p>
 <hr>
